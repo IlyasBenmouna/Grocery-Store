@@ -181,7 +181,7 @@ export const Main = () => {
                 <h5 class="fop-stock">200 items</h5>
               </div>
               <div class="fop-element" id="strawberry">
-                <img src="/./assets/strawberry.svg" alt="" />
+                <img src="./assets/strawberry.svg" alt="" />
                 <h3 class="fop-name">Strawberry</h3>
                 <h5 class="fop-stock">10 items</h5>
               </div>
@@ -215,15 +215,15 @@ export const Main = () => {
       <section class="carousel-featured">
             <div class="carousel-head">
                 <div class="head-left">
-                <h2>Featured Products</h2>
-            </div>
-            <div class="head-right">
-                <h4>All</h4>
-                <h3>Vegetables</h3>
-                <h4>Fruits</h4>
-                <h4>Coffee & Teas</h4>
-                <h4>Meat</h4>      
-            </div>     
+                    <h2>Featured Products</h2>
+                </div>
+                <div class="head-right">
+                        <h4>All</h4>
+                        <h3>Vegetables</h3>
+                        <h4>Fruits</h4>
+                        <h4>Coffee & Teas</h4>
+                        <h4>Meat</h4>      
+                </div>     
             </div> 
             
             <div class="carousel-body">
@@ -236,14 +236,14 @@ export const Main = () => {
                                     <h4 id="carditem">Radish 500g</h4>
                                     <div class="rating">
                                         <div class="rating-stars">
-                                            <input type="radio" name="star" id="1" /><label for="1" />
-                                            <input type="radio" name="star" id="2" /><label for="2" />
-                                            <input type="radio" name="star" id="3" /><label for="3" />
-                                            <input type="radio" name="star" id="4" /><label for="4" />
-                                            <input type="radio" name="star" id="5" /><label for="5" />
+                                            <input type="radio" name="star" id="1" />
+                                            <input type="radio" name="star" id="2" />
+                                            <input type="radio" name="star" id="3" />
+                                            <input type="radio" name="star" id="4" />
+                                            <input type="radio" name="star" id="5" />
                                         </div>                                   
 
-                                    <h5>By Mr.food</h5>
+                                        <h5>By Mr.food</h5>
                                         <div class="fop-footer">
                                             <h2>£2</h2>
                                             <h3>£3.99</h3>
@@ -252,8 +252,8 @@ export const Main = () => {
                                     </div>
                                 
                                 
+                                </div>
                     </div>
-                </div>
                 <button class="arrow-right slide-right" id="slide-arrow-next2"><img src="/./assets/arrow.svg" alt="" /></button>
 
             </div>
