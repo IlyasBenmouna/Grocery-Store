@@ -1,4 +1,27 @@
 import React, { Component } from "react";
+import ChevronDown from "../../assets/chevron-down.svg";
+import Mag from "../../assets/search.svg";
+import Heart from "../../assets/heart.svg";
+import Trolley from "../../assets/shopping-cart.svg";
+import Face from "../../assets/face.svg";
+import Grid from "../../assets/grid.svg";
+import Home from "../../assets/home.svg";
+import Flame from "../../assets/flame.svg";
+import Percent from "../../assets/percent.svg";
+import Megaphone from "../../assets/megaphone.svg";
+import Phone from "../../assets/phone.svg";
+import Send from "../../assets/send.svg";
+import Hero from "../../assets/hero1.svg";
+import Peach from "../../assets/peach.svg";
+import Vegetables from "../../assets/veg.svg";
+import Strawberry from "../../assets/strawberry.svg";
+import Apple from "../../assets/apple.svg";
+import Orange from "../../assets/orange.svg";
+import Potato from "../../assets/potato.svg";
+import Carrot from "../../assets/carrot.svg";
+import Radish from "../../assets/radish.svg";
+import AddToCart from "../../assets/addtocart.svg";
+import Arrow from "../../assets/arrow.svg";
 
 export const Main = () => {
   return (
@@ -18,86 +41,61 @@ export const Main = () => {
               <h4>All Categories</h4>
               <div className="divider"></div>
               <input className="search" placeholder="Search for items..." />
-              <img
-                className="chev1"
-                src=".reactstore/assets/chevron-down.svg"
-                alt=""
-              />
+              <img src={ChevronDown} />
             </div>
-            <img className="mag" src="../reactstore/assets/search.svg" alt="" />
+            <img src={Mag} />
           </div>
 
           <div className="frame91">
             <div className="btn1">
-              <img className="heart" src="../assets/heart.svg" alt="" />
+              <img src={Heart} />
               <h4>Wishlist</h4>
             </div>
             <div className="btn2">
-              <img
-                className="trolley"
-                src="../assets/shopping-cart.svg"
-                alt=""
-              />
+              <img src={Trolley} />
               <div className="cart">
                 <h4 className="cart-name">My cart</h4>
                 <h4 className="price">£69</h4>
               </div>
-              <img src="../assets/chevron-down.svg" alt="" />
+              <img src={ChevronDown} />
             </div>
           </div>
 
           <div className="profile">
-            <img className="face" src="../assets/face.svg" alt="" />
+            <img src={Face} className="face" />
             <a className="name" href="#">
               Ilyas B
             </a>
-            <img src="../assets/chevron-down.svg" alt="" />
+            <img src={ChevronDown} />
           </div>
         </nav>
-
-        <svg
-          className="vector"
-          width="1440"
-          height="1"
-          viewBox="0 0 1440 1"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M-0.5 0.5H1440"
-            stroke="#ADADAD"
-            strokeOpacity="0.17"
-            strokeLinecap="round"
-          />
-        </svg>
-
         <nav className="bot-nav">
           <div className="browse">
-            <img src="../assets/grid.svg" fill="currentColor" alt="" />
+            <img src={Grid} />
             <h4>Browse All Categories</h4>
           </div>
 
           <div className="btns">
             <div className="btn3">
-              <img src="../assets/home.svg" alt="" />
+              <img src={Home} />
               <h4>Home</h4>
             </div>
             <div className="btn4">
-              <img src="../assets/flame.svg" alt="" />
+              <img src={Flame} />
               <h4>Hot Deals</h4>
             </div>
             <div className="btn5">
-              <img src="../assets/percent.svg" alt="" />
+              <img src={Percent} />
               <h4>Promotions</h4>
             </div>
             <div className="btn6">
-              <img src="../assets/megaphone.svg" alt="" />
+              <img src={Megaphone} />
               <h4>New Products</h4>
             </div>
           </div>
 
           <div className="emergency">
-            <img src="../assets/phone.svg" alt="" />
+            <img src={Phone} />
             <h3>1233-7777</h3>
             <h4>24/7 support center</h4>
           </div>
@@ -111,7 +109,7 @@ export const Main = () => {
 
             <div className="subscribe-container">
               <div className="subscribe-bar">
-                <img src="../assets/send.svg" alt="" />
+                <img src={Send} />
                 <input
                   className="search"
                   placeholder="Enter you email address"
@@ -123,7 +121,7 @@ export const Main = () => {
           </div>
 
           <div className="hero-right">
-            <img src="../assets/hero1.svg" alt="" />
+            <img src={Hero} />
           </div>
         </div>
       </section>
@@ -142,84 +140,85 @@ export const Main = () => {
         </div>
         <div className="carousel-body">
           <button className="arrow-left slide-left" id="slide-arrow-prev">
-            <img src="../assets/arrow.svg" alt="" />
+            <img src={Arrow} />
           </button>
           <div className="fop-wrapper">
             <div className="fops fop-slider" data-current-slide="0" id="fops">
               <div className="fop-element">
-                <img src="../assets/peach.svg" alt="" />
+                <img src={Peach} />
                 <h3 className="fop-name">Peach</h3>
                 <h5 className="fop-stock">20 items</h5>
               </div>
               <div className="fop-element" id="veg">
-                <img src="../assets/veg.svg" alt="" />
+                <img src={Vegetables} />
                 <h3 className="fop-name">Vegetables</h3>
                 <h5 className="fop-stock">200 items</h5>
               </div>
               <div className="fop-element" id="strawberry">
-                <img src="../assets/strawberry.svg" alt="" />
+                <img src={Strawberry} />
                 <h3 className="fop-name">Strawberry</h3>
                 <h5 className="fop-stock">10 items</h5>
               </div>
               <div className="fop-element" id="apple">
-                <img src="../assets/apple.svg" alt="" />
+                <img src={Apple} />
                 <h3 className="fop-name">Apple</h3>
                 <h5 className="fop-stock">40 items</h5>
               </div>
               <div className="fop-element" id="orange">
-                <img src="../assets/orange.svg" alt="" />
+                <img src={Orange} />
                 <h3 className="fop-name">Orange</h3>
                 <h5 className="fop-stock">25 items</h5>
               </div>
               <div className="fop-element" id="potato">
-                <img src="../assets/potato.svg" alt="" />
+                <img src={Potato} />
                 <h3 className="fop-name">Potato</h3>
                 <h5 className="fop-stock">3 items</h5>
               </div>
               <div className="fop-element" id="carrot">
-                <img src="../assets/carrot.svg" alt="" />
+                <img src={Carrot} />
                 <h3 className="fop-name">Carrot</h3>
                 <h5 className="fop-stock">9 items</h5>
               </div>
               <div className="fop-element">
-                <img src="../assets/peach.svg" alt="" />
+                \
+                <img src={Peach} />
                 <h3 className="fop-name">Peach</h3>
                 <h5 className="fop-stock">20 items</h5>
               </div>
               <div className="fop-element" id="veg">
-                <img src="../assets/veg.svg" alt="" />
+                <img src={Vegetables} />
                 <h3 className="fop-name">Vegetables</h3>
                 <h5 className="fop-stock">200 items</h5>
               </div>
               <div className="fop-element" id="strawberry">
-                <img src="../assets/strawberry.svg" alt="" />
+                <img src={Strawberry} />
                 <h3 className="fop-name">Strawberry</h3>
                 <h5 className="fop-stock">10 items</h5>
               </div>
               <div className="fop-element" id="apple">
-                <img src="../assets/apple.svg" alt="" />
+                <img src={Apple} />
                 <h3 className="fop-name">Apple</h3>
                 <h5 className="fop-stock">40 items</h5>
               </div>
               <div className="fop-element" id="orange">
-                <img src="../assets/orange.svg" alt="" />
+                <img src={Orange} />
                 <h3 className="fop-name">Orange</h3>
                 <h5 className="fop-stock">25 items</h5>
               </div>
               <div className="fop-element" id="potato">
-                <img src="../assets/potato.svg" alt="" />
+                <img src={Potato} />
                 <h3 className="fop-name">Potato</h3>
                 <h5 className="fop-stock">3 items</h5>
               </div>
               <div className="fop-element" id="carrot">
-                <img src="../assets/carrot.svg" alt="" />
+                <img src={Carrot} />
                 <h3 className="fop-name">Carrot</h3>
                 <h5 className="fop-stock">9 items</h5>
               </div>
             </div>
           </div>
           <button className="arrow-right slide-right" id="slide-arrow-next">
-            <img src="../assets/arrow.svg" alt="" />
+            <img src={Arrow} />
           </button>
         </div>
       </section>
@@ -239,35 +238,46 @@ export const Main = () => {
 
         <div className="carousel-body">
           <button className="arrow-left slide-left" id="slide-arrow-prev2">
+            <img src={Arrow} />
             <img src="../assets/arrow.svg" alt="" />
           </button>
           <div className="card-wrapper">
             <div className="cards fop-slider" data-current-slide="0">
               <div className="product-card">
-                <img className="img" src="../assets/radish.svg" alt="" />
-                <h5>Vegetables</h5>
-                <h4 id="carditem">Radish 500g</h4>
-                <div className="rating">
-                  <div className="rating-stars">
-                    <input type="radio" name="star" id="1" />
-                    <input type="radio" name="star" id="2" />
-                    <input type="radio" name="star" id="3" />
-                    <input type="radio" name="star" id="4" />
-                    <input type="radio" name="star" id="5" />
+                <img src={Radish} />
+                <div className="product-card__content">
+                  <p>Vegetables</p>
+                  <h4 className="cardItem">Radish 500g</h4>
+                  <div className="rating">
+                    <div className="rating-stars">
+                      <input type="radio" name="star" id="1" />
+                      <label for="1"></label>
+                      <input type="radio" name="star" id="2" />
+                      <label for="2"></label>
+                      <input type="radio" name="star" id="3" />
+                      <label for="3"></label>
+                      <input type="radio" name="star" id="4" />
+                      <label for="4"></label>
+                      <input type="radio" name="star" id="5" />
+                      <label for="5"></label>
+                    </div>
                   </div>
-
-                  <h5>By Mr.food</h5>
-                  <div className="fop-footer">
-                    <h2>£2</h2>
-                    <h3>£3.99</h3>
-                    <img src="../assets/addtocart.svg" alt="" />
+                  <p>By Mr.food</p>
+                  <div className="product-card__footer">
+                    <div className="price">
+                      <p>£2</p>
+                      <span>£3.99</span>
+                    </div>
+                    <button>
+                      <span>Add</span>
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
           </div>
           <button className="arrow-right slide-right" id="slide-arrow-next2">
-            <img src="../assets/arrow.svg" alt="" />
+            <img src={Arrow} />
           </button>
         </div>
       </section>
