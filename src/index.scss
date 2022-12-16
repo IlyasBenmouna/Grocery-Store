@@ -601,7 +601,16 @@ header {
         transition: transform 0.3s ease-in;
         width: 100%;
         max-width: 300px;
-        .product-card {
+      }
+    }
+  }
+}
+
+footer {
+  height: 500rem;
+}
+
+.product-card {
           display: flex;
           flex-direction: column;
           background-color: rgb(255, 255, 255);
@@ -707,12 +716,4 @@ header {
               border-radius: 5px;
             }
           }
-        }
-      }
-    }
-  }
-}
-
-footer {
-  height: 500rem;
-}
+ }
