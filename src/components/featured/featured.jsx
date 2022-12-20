@@ -1,7 +1,9 @@
 import React from "react";
 import { productList } from "utilities/mockProductList";
-import Carousel from "./general/carousel";
-import FeaturedTile from "./general/featuredTile";
+import Carousel from "../carousel/carousel";
+import FeaturedTile from "../general/featuredTile";
+import "./featured.scss";
+import "../../assets/greystar.svg";
 
 const Featured = () => {
   return (

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { Component } from "react";
 import ChevronDown from "../../assets/chevron-down.svg";
 import Mag from "../../assets/search.svg";
@@ -26,7 +27,6 @@ import Arrow from "../../assets/arrow.svg";
 export const Main = () => {
   return (
     <>
-
       <section className="carousel">
         <div className="carousel-head">
           <div className="head-left">

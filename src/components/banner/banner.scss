@@ -1,0 +1,96 @@
+.section1 {
+  padding-top: 2rem;
+  display: flex;
+  position: relative;
+  .back {
+    background-color: $lightGreen;
+    width: 100%;
+    height: 32.3rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("./assets/backeffect.svg");
+    background-size: 59%;
+    background-repeat: repeat;
+    background-blend-mode: soft-light;
+
+    .hero-left {
+      margin-left: 15rem;
+      width: 35rem;
+      h1 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 3.7rem;
+        letter-spacing: -0.01em;
+        color: #253d4e;
+      }
+      h5 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.25rem;
+        letter-spacing: -0.01em;
+        color: #838383;
+      }
+
+      .subscribe-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        .subscribe-bar {
+          display: flex;
+          flex-direction: row;
+          background-color: #f3f3f3;
+          align-items: center;
+          border-radius: 0.2rem;
+          width: 22rem;
+          height: 2rem;
+          padding: 0.75rem;
+
+          h4 {
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 0.6rem;
+            line-height: 18px;
+            width: 12rem;
+            color: #253d4e;
+          }
+
+          .search {
+            width: 25rem;
+            text-decoration: none;
+            padding-left: 20px;
+            background-color: #f3f3f3;
+            border: none;
+            font-weight: 500;
+            font-size: 0.9rem;
+            line-height: 1.1rem;
+          }
+        }
+
+        h3 {
+          display: flex;
+          align-items: center;
+          background-color: $accentColor;
+          border-radius: 0.2rem;
+          color: white;
+          padding: 0.5rem;
+          margin-top: 0;
+          margin: 0;
+          font-weight: 600;
+          size: 1rem;
+          padding-left: 1.2rem;
+          padding-right: 1.2rem;
+        }
+      }
+    }
+    .hero-right {
+      img {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}

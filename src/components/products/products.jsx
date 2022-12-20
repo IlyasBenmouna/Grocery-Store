@@ -1,7 +1,7 @@
 import React from "react";
 import { productList } from "utilities/mockProductList";
-import Carousel from "./general/carousel";
-import CategoryTile from "./general/categoryTile";
+import Carousel from "../carousel/carousel";
+import CategoryTile from "../general/categoryTile";
 
 const Products = () => {
   return (
