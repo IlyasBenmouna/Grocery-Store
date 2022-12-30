@@ -10,6 +10,7 @@ import Flame from "assets/flame.svg";
 import Percent from "assets/percent.svg";
 import Megaphone from "assets/megaphone.svg";
 import Phone from "assets/phone.svg";
+import "./header.scss";
 
 const Header = () => {
   return (

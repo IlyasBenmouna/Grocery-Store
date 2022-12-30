@@ -2,6 +2,7 @@
 import React from "react";
 import Send from "assets/send.svg";
 import Hero from "assets/hero1.svg";
+import "./banner.scss";
 
 const Banner = () => {
   return (
